@@ -18,7 +18,7 @@ const BLOG = {
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: "https://og-image.vercel.app", // The link to generate OG image, don't end with a slash
-  socialLink: "https://vmst.io/rhymeswithjazz",
+  socialLink: "https://vmst.io/@rhymeswithjazz",
   seo: {
     keywords: ["Blog", "Website", "Notion"],
     googleSiteVerification: "", // Remove the value or replace it with your own google site verification code
