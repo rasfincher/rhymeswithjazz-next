@@ -1,6 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  font-named-instance: 'Regular';
+  src: url('/fonts/Montserrat-Regular.ttf'); /* IE9 Compat Modes */
+}
+
 @font-face {
   font-family: 'IBM Plex Sans';
   font-weight: 100 900;
@@ -72,7 +82,7 @@ body::-webkit-scrollbar-thumb {
   position: sticky;
   z-index: 10;
   top: -1px;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(8px);
   transition: all 0.5s cubic-bezier(0.4, 0, 0, 1);
   border-bottom-color: transparent;
 }
