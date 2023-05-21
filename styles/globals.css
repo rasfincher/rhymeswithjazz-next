@@ -3,6 +3,15 @@
 @tailwind utilities;
 
 @font-face {
+  font-family: 'Atkinson Hyperlegible';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  font-named-instance: 'Regular';
+  src: url('/fonts/Atkinson-Hyperlegible-Regular.woff2') format('woff2');
+}
+
+@font-face {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;

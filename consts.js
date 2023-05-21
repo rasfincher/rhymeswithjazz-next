@@ -1,5 +1,5 @@
 exports.FONTS_SANS = [
-  '"Montserrat"',
+  '"Atkinson Hyperlegible"',
   "ui-sans-serif",
   "system-ui",
   "-apple-system",
